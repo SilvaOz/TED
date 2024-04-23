@@ -11,7 +11,7 @@ const Header = () => {
         <Link to="/" className={styles.logo}>Tribal Ecstatic Dance</Link>
         <nav>
           <ul>
-            <li><Link to="/about">Acerca</Link></li>
+            <li><Link to="/about">Acerca de nosotros</Link></li>
             <li><Link to="/products">Productos</Link></li>
             <li><Link to="/services">Servicios</Link></li>
             <li><Link to="/reservations">Reservas</Link></li>
