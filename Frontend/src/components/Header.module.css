@@ -1,0 +1,30 @@
+/* Header.module.css */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Ejemplo de animación de entrada con CSS */
+.fade-in {
+    animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
