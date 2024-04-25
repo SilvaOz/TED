@@ -1,6 +1,4 @@
-// ContactSection.jsx
-import React from 'react';
-import './ContactSection.css'; // Importamos los estilos del componente ContactSection
+import './styles/ContactSection.css'; // Importamos los estilos del componente ContactSection
 
 const ContactSection = () => {
   return (

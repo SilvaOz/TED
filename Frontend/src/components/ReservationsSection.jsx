@@ -1,6 +1,4 @@
-// ReservationsSection.jsx
-import React from 'react';
-import './ReservationsSection.css'; // Importamos los estilos del componente ReservationsSection
+import './styles/ReservationsSection.css'; // Importamos los estilos del componente ReservationsSection
 
 const ReservationsSection = () => {
   return (
@@ -14,7 +12,7 @@ const ReservationsSection = () => {
             <li>
               <h4>Retiro de Ecstatic Dance en el Valle Sagrado</h4>
               <p><strong>Fecha:</strong> Del 15 al 20 de Julio de 2024</p>
-              <p><strong>Ubicación:</strong> Eco Resort "Pachamama", Valle Sagrado, Perú</p>
+              <p><strong>Ubicación:</strong> Eco Resort &quot;Pachamama&quot; Valle Sagrado, Perú</p>
               <p><strong>Descripción:</strong> Únete a nosotros en un viaje transformador hacia la expansión de la conciencia a través de la danza, la música y la conexión con la naturaleza.</p>
             </li>
             <li>

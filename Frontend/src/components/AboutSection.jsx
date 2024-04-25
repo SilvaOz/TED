@@ -1,6 +1,4 @@
-// AboutSection.jsx
-import React from 'react';
-import './AboutSection.css'; // Importamos los estilos del componente AboutSection
+import './styles/AboutSection.css'; // Importamos los estilos del componente AboutSection
 
 const AboutSection = () => {
   return (

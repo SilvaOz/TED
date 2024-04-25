@@ -1,6 +1,5 @@
-// ServicesSection.jsx
-import React from 'react';
-import './ServicesSection.css'; // Importamos los estilos del componente ServicesSection
+
+import './styles/ServicesSection.css'; // Importamos los estilos del componente ServicesSection
 
 const ServicesSection = () => {
   return (
