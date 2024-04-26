@@ -1,0 +1,55 @@
+/* Header.css */
+header {
+  background-color: #444444;
+  color: #fff;
+  /* padding: 10px 0; */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #4444449d;
+  backdrop-filter: blur(8px);
+
+
+}
+
+nav ul li {
+  margin-right: 50px;
+
+  /* padding: 5px 10px; */
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+
+  
+}
+.services-menu-item a {
+  padding: 8px 0;
+  margin: 0 10px;
+
+  display: flex;
+  
+
+
+}

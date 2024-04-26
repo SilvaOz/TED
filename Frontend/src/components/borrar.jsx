@@ -1,6 +1,5 @@
-// ProductSection.jsx
-import React from 'react';
-import './ProductSection.css'; // Importamos los estilos del componente ProductSection
+
+import './styles/ProductSection.css'; // Importamos los estilos del componente ProductSection
 
 const ProductSection = () => {
   return (

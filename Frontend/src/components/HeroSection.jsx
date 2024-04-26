@@ -1,6 +1,5 @@
-import React from 'react';
-import './HeroSection.css'; // Importamos los estilos del componente HeroSection
-import styles from './HeroSection.module.css'; // Importamos los estilos del componente HeroSection
+import './styles/HeroSection.css'; // Importamos los estilos del componente HeroSection
+import styles from './styles/HeroSection.module.css'; // Importamos los estilos del componente HeroSection
 
 const HeroSection = () => {
   return (
