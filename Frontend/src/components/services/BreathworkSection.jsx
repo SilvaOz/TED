@@ -1,11 +1,14 @@
 import '../styles/ServicesSection.css'; // Importa los estilos del componente ServiceSection
-import breathworkImage from '../../assets/logo.jpeg'; // Importa la imagen de breathwork
+import breathworkImage from '../../assets/respiracion.jpeg'; // Importa la imagen de breathwork
 
 const BreathworkSection = () => {
   return (
-    
+
     <section className="service-section">
       <h2>Breathwork: Un Viaje de Transformación Profunda</h2>
+
+      <img src={breathworkImage} alt="respiracion" className="event-image" />
+
       <p>
         Explora el poder transformador de la respiración consciente en nuestras sesiones especializadas de Breathwork. Guiados por expertos facilitadores, te sumergirás en un viaje profundo de autoexploración y sanación.
       </p>

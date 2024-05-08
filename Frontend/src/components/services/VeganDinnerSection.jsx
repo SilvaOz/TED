@@ -1,9 +1,11 @@
 import '../styles/ServicesSection.css'; // Importa los estilos del componente ServiceSection
-
+import vegan from '../../assets/vegan.jpeg';
 const VeganDinnerSection = () => {
   return (
     <section className="service-section">
       <h2>Vegan Dinner</h2>
+      <img src={vegan} alt="vegan" className="instrument-image" />
+
       <p>Después de una intensa sesión de baile extática, recarga tu energía con una deliciosa cena comunitaria vegana. En nuestro Vegan Dinner, te invitamos a disfrutar de una experiencia culinaria única, donde cada bocado está lleno de sabor, nutrición y amor.</p>
       <p>Nuestro menú vegano está cuidadosamente diseñado para nutrir tu cuerpo y satisfacer tus papilas gustativas al mismo tiempo. Desde ensaladas frescas y coloridas hasta platos principales reconfortantes y postres indulgentes, tenemos algo para todos los gustos y preferencias.</p>
       <p>Detalles del Vegan Dinner:</p>

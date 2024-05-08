@@ -1,8 +1,8 @@
 import './styles/ReservationsSection.css'; // Importamos los estilos del componente ReservationsSection
-import valleSagradoImage from '../../src/assets/logo.jpeg';
-import tulumImage from '../../src/assets/logo.jpeg';
-import valleSagradoFlyer from '../../src/assets/logo.jpeg';
-import tulumFlyer from '../../src/assets/logo.jpeg';
+import valleSagradoImage from '../../src/assets/retironoche.jpeg';
+import tulumImage from '../../src/assets/retiro.jpeg';
+import valleSagradoFlyer from '../../src/assets/flyerday.jpeg';
+import tulumFlyer from '../../src/assets/flyernight.jpeg';
 
 const ReservationsSection = () => {
   return (

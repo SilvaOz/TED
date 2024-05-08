@@ -1,9 +1,11 @@
 import '../styles/ServicesSection.css'; // Importa los estilos del componente ServiceSection
-
+import didgeridoo from '../../assets/didgeridooclass.jpeg';
 const DidgeridooClassesSection = () => {
   return (
     <section className="service-section">
       <h2>Clases de Didgeridoo</h2>
+      <img src={didgeridoo} alt="didgeridoo" className="instrument-image" />
+
       <p>¡Embárcate en un viaje musical único explorando el arte ancestral de tocar el didgeridoo! Nuestras clases te introducirán en la fascinante cultura aborigen australiana mientras aprendes las técnicas básicas y avanzadas para dominar este instrumento tradicional.</p>
       <p>Impartidas por músicos experimentados y apasionados por la cultura aborigen, nuestras clases ofrecen una experiencia educativa y divertida para todos los niveles, desde principiantes hasta músicos avanzados.</p>
       <p>Beneficios de nuestras clases de Didgeridoo:</p>

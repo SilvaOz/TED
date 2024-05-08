@@ -1,12 +1,15 @@
 import '../styles/ServicesSection.css'; // Importa los estilos del componente ServiceSection
-import didgeridoo from '../../assets/logo1.jpeg';
+import didgeridoo from '../../assets/didgeridoo.jpeg';
 // import handpan from '../assets/handpan.jpg';
-import flute from '../../assets/tamborero.jpeg';
+import flute from '../../assets/flute.jpeg';
+import healing from '../../assets/healingsound.jpeg';
 
 const SoundHealingSection = () => {
   return (
     <section className="service-section">
       <h2 className="section-title">Sound Healing: Una Experiencia de Sanación Profunda</h2>
+      <img src={healing} alt="batucada" className="instrument-image" />
+
       <p className="section-description">
         En nuestras sesiones de Sound Healing, te invitamos a sumergirte en un viaje de relajación profunda y renovación celular, donde los sonidos terapéuticos te ayudarán a restaurar el equilibrio en tu cuerpo, mente y espíritu.
       </p>

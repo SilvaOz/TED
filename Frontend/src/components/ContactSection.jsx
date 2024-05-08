@@ -1,10 +1,10 @@
 import './styles/ContactSection.css'; // Importamos los estilos del componente ContactSection
-
 const ContactSection = () => {
   return (
     <section id="contact" className="contact-section">
       <div className="contact-content">
         <h2>Conéctate con Nosotros</h2>
+
         <form className="contact-form">
           <div className="form-group">
             <label htmlFor="name">Nombre:</label>
